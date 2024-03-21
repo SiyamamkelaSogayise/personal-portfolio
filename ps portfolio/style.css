@@ -90,11 +90,11 @@ textarea:focus ~ span {
 
 textarea {
     width: 100%;
-    min-height: 7rem;
+    min-height: 4rem;
 }
 
 .input-container {
-    width: 650px;
+    width: 600px;
     max-width: 100%;
     margin: 20px auto 25px auto;
 }
@@ -149,11 +149,9 @@ input[type=checkbox]:checked + label {
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     padding: 40px 200px;
-    margin-top: 0%;
-    margin-bottom: 0%;
 }
 
 .nav .link ul {

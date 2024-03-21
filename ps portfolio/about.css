@@ -21,8 +21,8 @@ body {
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     padding: 40px 200px;
 }
 
@@ -456,6 +456,7 @@ p {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+	color:#29323c
 }
 #about .col-left {
 	width: 250px;
@@ -472,6 +473,7 @@ p {
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	color:#fff;
 }
 #about .col-right .cta {
 	color: black;
