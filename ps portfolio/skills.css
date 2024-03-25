@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url("images/pexels1.jpg");
+    background-size: cover;
+    padding-top: 2px;
+    
+    
+}
+
+
+
+
+/* ///// inputs /////*/
+
+
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 40px 200px;
+    float: left;
+}
+
+.nav .link ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav .link ul a {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-weight: 600;
+    transition: all 2000ms ease-in-out;
+}
+
+ul a .active {
+    color: #f4637b;
+}
+
+.nav .link ul a:hover {
+    color: #f4637b;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skill-container{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.skills h2{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 16px;
+}
+.progress-bar{
+    background: #fff;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+.progress-bar div{
+    height: 10px ;
+    border-radius: 5px;
+    width: 50% ;
+   
+}
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% ;
+    background: #222;
+    float: right ;
+    margin-top: -15px;
+    margin-right:-20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #778899;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #6f7c80;
+    animation: css 1s linear forwards;
+}
+.javascript{
+    background: #0f0f0f;
+    animation: javascript 1s linear forwards;
+}
+.php{
+    background: #131516;
+    animation: php 1s linear forwards;
+}
+.sql{
+    background: #7f7f7f;
+    animation: sql 1s linear forwards;
+}
+
+.html span{
+    border: 1px solid #a7afb2
+}
+.css span{
+    border: 1px solid #0f0f0f
+}
+.javascript span{
+    border: 1px solid #6f7c80
+}
+.php span{
+    border: 1px solid #131516
+}
+.sql span{
+    border: 1px solid #7f7f7f
+}
+@keyframes html{
+    100%{
+        width:95%;
+    }
+}
+@keyframes html{
+    100%{
+        width:86%;
+    }
+}
+@keyframes css{
+    100%{
+        width:75%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width:70%;
+    }
+}
+@keyframes php{
+    100%{
+        width:65%;
+    }
+}
+@keyframes sql{
+    100%{
+        width:73%;
+    }
+}
+.skill-container .heading h1{
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: black;
+    text-align: center;
+}

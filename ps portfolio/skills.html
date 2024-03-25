@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio</title>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="skills.css">
 
     <!-- Boxicons CSS -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
@@ -27,6 +27,53 @@
             </div>
         </div>
     </div>
-    <section class="skills">
-        
+    <section class="skill-container">
+        <div class="heading">
+            <h1>My Skills</h1>
+        <div class="skills">
+            <h2>HTML</h2>
+            <div class="progress-bar">
+                <div class="html"><span>86%</span></div>
+            </div>
+
+            <h2>CSS</h2>
+            <div class="progress-bar">
+                <div class="css"><span>75%</span></div>
+            </div>
+
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+                <div class="javascript"><span>70%</span></div>
+            </div>
+
+            <h2>Php</h2>
+            <div class="progress-bar">
+                <div class="php"><span>65%</span></div>
+            </div>
+
+            <h2>Sql</h2>
+            <div class="progress-bar">
+                <div class="sql"><span>73%</span></div>
+            </div>
+        </div>
+    </div>
     </section>
+    
+
+<script>
+    let number = document.getElementById("number");
+    let counter = 0;
+    setInterval(() =>{
+        if(counter == 65){
+            clearInterval();
+        }else if(counter == 90){
+            clearInterval();
+        }else{
+            counter += 1;
+        number.innerHTML = counter + "%";
+        }
+       
+    } ,30)
+</script>
+</body>
+</html>

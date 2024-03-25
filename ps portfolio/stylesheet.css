@@ -72,14 +72,14 @@ ul a .active {
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin-top: 160px;
-
+    min-height: 100vh;
 }
 
 .main .men {
     width: 400px;
     transition: all 2000ms ease;
     cursor: pointer;
+    display: flex;
 }
 
 .main .men:hover{
@@ -104,11 +104,12 @@ ul a .active {
 .main .btn button {
     padding: 8px 20px;
     background: transparent;
-    border-radius: 30px;
-    border: 1px solid #2a2a2a;
+    border: 2px solid #9b997b;
     margin-right: 1rem;
     margin-bottom: 30px;
     cursor: pointer;
+    transition: 0.3s ease;
+    transition-property: background-color, color;
 }
 
 .main .btn .btn-2 {
