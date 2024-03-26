@@ -113,12 +113,16 @@ ul a .active {
     animation: javascript 1s linear forwards;
 }
 .php{
-    background: #131516;
+    background: #064469;
     animation: php 1s linear forwards;
 }
 .sql{
     background: #7f7f7f;
     animation: sql 1s linear forwards;
+}
+.csharp{
+    background: #5790ab;
+    animation: csharp 1s linear forwards;
 }
 
 .html span{
@@ -131,10 +135,13 @@ ul a .active {
     border: 1px solid #6f7c80
 }
 .php span{
-    border: 1px solid #131516
+    border: 1px solid #064469
 }
 .sql span{
     border: 1px solid #7f7f7f
+}
+.csharp span{
+    border: 1px solid #5790ab
 }
 @keyframes html{
     100%{
@@ -166,6 +173,11 @@ ul a .active {
         width:73%;
     }
 }
+@keyframes csharp{
+    100%{
+        width:80%;
+    }
+}
 .skill-container .heading h1{
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
@@ -173,3 +185,50 @@ ul a .active {
     color: black;
     text-align: center;
 }
+.footer {
+    background-color: #f7ebf330;
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+  }
+  
+  .footer__logo a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+  }
+  
+  .footer__col p {
+    font-size: 1.25rem;
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .footer__socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: #f7ebf330;
+    border-radius: 100%;
+  }
+  
+  .footer__bar {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+  }
+  

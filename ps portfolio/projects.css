@@ -59,3 +59,50 @@ ul a .active {
 .nav .link ul a:hover {
     color: #f4637b;
 }
+.footer {
+    background-color: #f7ebf330;
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+  }
+  
+  .footer__logo a {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--white);
+  }
+  
+  .footer__col p {
+    font-size: 1.25rem;
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+  
+  .footer__socials a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    aspect-ratio: 1;
+    font-size: 1.5rem;
+    color: var(--white);
+    background-color: #f7ebf330;
+    border-radius: 100%;
+  }
+  
+  .footer__bar {
+    font-size: 1.5rem;
+    color: var(--white);
+    text-align: center;
+  }
+  
