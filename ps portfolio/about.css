@@ -14,12 +14,12 @@ html {
 body {
     opacity: 0;
     transition: opacity 3s;
-   background-image: url("images/pexels1.jpg");
+   /*background-image: url("images/pexels1.jpg");*/
 	background-size: cover;
 }
 .nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     padding: 40px 200px;
     
@@ -59,6 +59,7 @@ ul a .active {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 }
 img {
 	height: 100%;
@@ -83,7 +84,7 @@ p {
 	text-align: center;
 }
 .section-title span {
-	color: #9b997b;
+	color: gray;
 }
 
 .cta {
@@ -113,7 +114,7 @@ p {
 	color: white;
 }
 .brand h1 span {
-	color: #9b997b;
+	color: gray;
 }
 
 /* Header section */
@@ -138,8 +139,9 @@ p {
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 20px;
-	color:#29323c
+	padding: 80px 20px;
+	color:#29323c;
+	margin-bottom: -70px;
 }
 #about .col-left {
 	width: 250px;
@@ -178,7 +180,7 @@ p {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid #9b997b;
+	border: 7px solid gray;
 	z-index: -1;
 }
 /* End About Section */
@@ -219,7 +221,7 @@ p {
 }
 @keyframes text_reveal_name {
 	100% {
-		color: #9b997b;
+		color: gray;
 		font-weight: 500;
 	}
 }
@@ -283,7 +285,7 @@ p {
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid #9b997b;
+		border: 10px solid gray;
 	}
 	#about .col-right {
 		text-align: left;
