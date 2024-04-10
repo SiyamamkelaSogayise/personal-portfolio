@@ -217,4 +217,7 @@ ul a .active {
     color: var(--white);
     text-align: center;
   }
-  
+ .toTop{
+    align-self: right;
+    align-items: flex-end;
+ } 

@@ -105,29 +105,34 @@ ul a .active {
     justify-content: center;
     font-size: medium;
 }
-.html{
+.html {
     background: #778899;
-    animation: html 1s linear forwards;
+    animation: html 5s linear infinite;
 }
-.css{
+
+.css {
     background: #6f7c80;
-    animation: css 1s linear forwards;
+    animation: css 5s linear infinite;
 }
-.javascript{
+
+.javascript {
     background: #0f0f0f;
-    animation: javascript 1s linear forwards;
+    animation: javascript 5s linear infinite;
 }
-.php{
+
+.php {
     background: #064469;
-    animation: php 1s linear forwards;
+    animation: php 5s linear infinite;
 }
-.sql{
+
+.sql {
     background: #7f7f7f;
-    animation: sql 1s linear forwards;
+    animation: sql 5s linear infinite;
 }
-.csharp{
+
+.csharp {
     background: #5790ab;
-    animation: csharp 1s linear forwards;
+    animation: csharp 5s linear infinite;
 }
 
 .html span{
