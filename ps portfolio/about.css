@@ -176,12 +176,13 @@ p {
 #about .col-left .about-img::after {
 	content: '';
 	position: absolute;
-	left: -33px;
+	
 	top: 19px;
 	height: 98%;
 	width: 98%;
 	border: 7px solid gray;
 	z-index: -1;
+	justify-content: flex-end;
 }
 /* End About Section */
 

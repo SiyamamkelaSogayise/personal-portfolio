@@ -41,9 +41,8 @@
 <body onload="document.body.style.opacity='1'" style="opacity: 1;">
     <div class="hero">
         <div class="nav">
-            <div class="logo" style="align-items: flex-start;">
-               PortFolio.
-            </div>
+            <div class="logo" >
+               
             <div class="link">
                 <ul>
                     <li><a href="#home" class="active">Home</a></li>
@@ -54,9 +53,10 @@
                 </ul>
             </div>
         </div>
+        </div>
 
         <div class="main" id="home">
-            <img src="images\about.jpg" alt="Profile picture" class="men" style="width:250px;height:300px;">
+           
             <div class="main-detil">
                 <p>Hello I'm</p>
                 <h1 class="section-title">Siyamamkela Sogayise</h1>
@@ -77,7 +77,7 @@
             </div>
         </div>     
     </div>
-    <section id="about">
+    <section id="about" >
       <div class="about container">
         <div class="col-left">
           <div class="about-img">
@@ -133,6 +133,11 @@
           <div class="progress-bar">
               <div class="csharp"><span>80%</span></div>
           </div>
+
+          <h2>Python</h2>
+          <div class="progress-bar">
+              <div class="python"><span>74%</span></div>
+          </div>
       </div>
   </div>
   </section>
@@ -144,56 +149,39 @@
           My Projects
         </h1>
        
-        <div class="responsive-container-block">
-          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
-            <div class="card">
-              <div class="circlechart circle-chart container-block" data-percentage="95">
-              </div>
-              <p class="text-blk card-head">
-                Lorem ipsum
-              </p>
-              <p class="text-blk card-text">
-                Lorem ipsum dolor sit amet, consectetur adip iscing elit,
-              </p>
-            </div>
+        <div class="container">
+          <div class="card__container">
+             <article class="card__article">
+                <img src="images\project1.png" alt="image" class="card__img">
+ 
+                <div class="card__data">
+                   <span class="card__description">Vancouver Mountains, Canada</span>
+                   <h2 class="card__title">The Great Path</h2>
+                   <a href="#" class="card__button">Read More</a>
+                </div>
+             </article>
+ 
+             <article class="card__article">
+                <img src="images\yoga web.png" alt="image" class="card__img">
+ 
+                <div class="card__data">
+                   <span class="card__description">Poon Hill, Nepal</span>
+                   <h2 class="card__title">Starry Night</h2>
+                   <a href="#" class="card__button">Read More</a>
+                </div>
+             </article>
+ 
+             <article class="card__article">
+                <img src="assets/img/landscape-3.png" alt="image" class="card__img">
+ 
+                <div class="card__data">
+                   <span class="card__description">Bojcin Forest, Serbia</span>
+                   <h2 class="card__title">Path Of Peace</h2>
+                   <a href="#" class="card__button">Read More</a>
+                </div>
+             </article>
           </div>
-          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
-            <div class="card">
-              <div class="circlechart circle-chart container-block" data-percentage="30">
-              </div>
-              <p class="text-blk card-head">
-                Lorem ipsum
-              </p>
-              <p class="text-blk card-text">
-                Lorem ipsum dolor sit amet, consectetur adip iscing elit,
-              </p>
-            </div>
-          </div>
-          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
-            <div class="card">
-              <div class="circlechart circle-chart container-block" data-percentage="60">
-              </div>
-              <p class="text-blk card-head">
-                Lorem ipsum
-              </p>
-              <p class="text-blk card-text">
-                Lorem ipsum dolor sit amet, consectetur adip iscing elit,
-              </p>
-            </div>
-          </div>
-          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
-            <div class="card">
-              <div class="circlechart circle-chart container-block" data-percentage="-50">
-              </div>
-              <p class="text-blk card-head">
-                Lorem ipsum
-              </p>
-              <p class="text-blk card-text">
-                Lorem ipsum dolor sit amet, consectetur adip iscing elit,
-              </p>
-            </div>
-          </div>
-        </div>
+       </div>
       </div>
     </div>
   </div>
@@ -259,4 +247,5 @@
               });
           }
       </script>
+      
 </body></html>

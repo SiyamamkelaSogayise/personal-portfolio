@@ -67,6 +67,8 @@ ul a .active {
    align-items: center;
    justify-content: center;
    margin-top: 10px;
+   background-image: url("images/psd3.jfif");
+   background-size: cover;
 }
 .skills h2{
     font-weight: 500;
@@ -134,6 +136,10 @@ ul a .active {
     background: #5790ab;
     animation: csharp 5s linear infinite;
 }
+.python {
+    background: #7f7f7f;
+    animation: csharp 5s linear infinite;
+}
 
 .html span{
     border: 1px solid #a7afb2
@@ -152,6 +158,9 @@ ul a .active {
 }
 .csharp span{
     border: 1px solid #5790ab
+}
+.python span{
+    border: 1px solid #7f7f7f
 }
 @keyframes html{
     100%{
@@ -186,6 +195,11 @@ ul a .active {
 @keyframes csharp{
     100%{
         width:80%;
+    }
+}
+@keyframes python{
+    100%{
+        width:74%;
     }
 }
 .skill-container .heading h1{
