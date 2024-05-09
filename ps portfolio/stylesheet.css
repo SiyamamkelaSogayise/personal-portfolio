@@ -30,7 +30,10 @@ body {
 p{
     font-size: 16px;
 }
-
+#contact{
+    background-image: url("images/pexels-karolina-grabowska-5485125.jpg");
+    background-size: cover;
+}
 .nav {
     display: flex;
     justify-content: flex-start;
@@ -79,7 +82,9 @@ ul a .active {
     min-height: 100vh;
     margin-top: -30px;
 }
-
+#projects{
+    background-color: #dfe0dc;
+}
 .main .men {
     width: 400px;
     transition: all 2000ms ease;
@@ -95,6 +100,10 @@ ul a .active {
     text-align: center;
     color: #2a2a2a;
     margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ;
 }
 #about{
     

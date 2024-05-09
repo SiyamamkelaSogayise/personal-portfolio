@@ -50,7 +50,10 @@ ul a .active {
 .nav .link ul a:hover {
     color: #f4637b;
 }
-
+#about{
+	background-image: url("images/5523732.jpg");
+	background-size: fixed;
+}
 
 
 .container {
