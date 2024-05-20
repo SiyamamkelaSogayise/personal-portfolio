@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="about.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"rel="stylesheet"/>
+    
+
+
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <style>
+        #about .col-left .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+#about .col-left .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid #9b997b;
+	z-index: -1;
+}
+
+    </style>
+</head>
+
+<body onload="document.body.style.opacity='1'" style="opacity: 1;">
+    <div class="hero">
+        <div class="nav">
+            <div class="logo" >
+               
+            <div class="link">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+        <div class="main" id="home">
+           
+            <div class="main-detil">
+                <p>Hello I'm</p>
+                <h1 class="section-title">Siyamamkela Sogayise</h1>
+                <h4>Full Stack Developer</h4>
+                <p>with expertise in <span class="w3-tag">C#, ASP.NET MVC, SQL  and PYTHON</span></p><br>
+
+                <div class="btn">
+                    <a href="Siyamamkela Sogayise resume.pdf" download>
+                    <button type="submit">Download CV</button>
+                    </a>
+                </div>
+
+                <div class="social">
+                    <a href="https://github.com/SiyamamkelaSogayise" ><i class="bx bxl-github"></i></a>
+                    <a href="mailto:siyamamkela.sogayise@gmail.com"><i class="bx bxl-gmail"></i></a>
+                    <a href="https://www.linkedin.com/in/siyamamkela-sogayise-9b6710273?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <section id="about" >
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="images\Siya2.jpeg" alt="img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2>Full Stack Developer</h2>
+          <p>As a full stack developer with expertise in C#, ASP.NET MVC, SQL, and Python, 
+              I possess a comprehensive understanding of both front-end and back-end development technologies.
+              My proficiency in C# and ASP.NET MVC allows me to craft robust and scalable web applications, 
+              leveraging the power of the .NET framework to deliver efficient solutions. In the realm of databases,
+               my expertise in SQL enables me to design and optimize database schemas, ensuring seamless data management and retrieval.
+                Additionally, my proficiency in Python empowers me to develop versatile and dynamic web applications
+              . With a holistic skill set spanning multiple technologies, I excel in architecting end-to-end solutions, 
+               and thrive in dynamic and collaborative development environments.!</p>
+          <a href="#projects" class="cta">View projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skill-container" id="skills">
+      <div class="section-title">
+          <h1 class="section-title">My Skills</h1>
+      <div class="skills">
+          <h2>HTML</h2>
+          <div class="progress-bar">
+              <div class="html"><span>86%</span></div>
+          </div>
+
+          <h2>CSS</h2>
+          <div class="progress-bar">
+              <div class="css"><span>75%</span></div>
+          </div>
+
+          <h2>JavaScript</h2>
+          <div class="progress-bar">
+              <div class="javascript"><span>70%</span></div>
+          </div>
+
+          <h2>Php</h2>
+          <div class="progress-bar">
+              <div class="php"><span>65%</span></div>
+          </div>
+
+          <h2>Sql</h2>
+          <div class="progress-bar">
+              <div class="sql"><span>73%</span></div>
+          </div>
+
+          <h2>C#</h2>
+          <div class="progress-bar">
+              <div class="csharp"><span>80%</span></div>
+          </div>
+
+          <h2>Python</h2>
+          <div class="progress-bar">
+              <div class="python"><span>74%</span></div>
+          </div>
+      </div>
+  </div>
+  </section>
+
+  <div class="circular_progress" id="projects">
+    <div class="responsive-container-block big-container">
+      <div class="responsive-container-block container">
+        <h1 class="section-title">
+          My Projects
+        </h1>
+
+        <div class="responsive-container-block">
+          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
+            <div class="card">
+              <div class="circlechart circle-chart container-block" data-percentage="95">
+              </div>
+              <p class="text-blk card-head">
+               Braiding Website
+              </p>
+              <p class="text-blk card-text">
+                Created using HTML, CSS, JavaScript, and Node.js. <a href="https://lets-get-braided1-git-main-leelulibos-projects.vercel.app/">Explore website</a>
+            </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
+            <div class="card">
+              <div class="circlechart circle-chart container-block" data-percentage="30">
+              </div>
+              <p class="text-blk card-head">
+                Yoga Website
+              </p>
+              <p class="text-blk card-text">
+                Created using HTML, CSS, and JavaScript. <a href="https://webpage1-icckwb7rh-siyamamkelas-projects.vercel.app/">Explore website</a>
+              </p>
+            </div>
+          </div>
+          <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12">
+            <div class="card">
+              <div class="circlechart circle-chart container-block" data-percentage="60">
+              </div>
+              <p class="text-blk card-head">
+                PHC system
+              </p>
+              <p class="text-blk card-text">
+               Created using C# ASP.NET MVC. <a href="https://github.com/SiyamamkelaSogayise/GRP-03-44">Explore website</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="contact">
+    <div class="row input-container">
+      <h1 class="section-title" style="align-items: center;">contact us</h1>
+      <form method="get" action="mailto:siyamamkela.sogayise@gmail.com">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+              <input type="text" required />
+              <label>Name</label> 
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+              <input type="email" required />
+              <label>Email</label> 
+          </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float:right;">
+              <input type="text" required />
+              <label>Phone Number</label> 
+          </div>
+      </div>
+      <div class="col-xs-12">
+          <div class="styled-input wide">
+              <textarea required></textarea>
+              <label>Message</label>
+          </div>
+      </div>
+      <div class="col-xs-12">
+          <button type="submit" class="btn-lrg submit-btn">Send Message</button>
+      </div>
+      </form>
+           
+    </div>
+</div>
+
+
+    <footer class="footer" id="contact">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <div class="footer__logo"><a href="#"></a></div>
+          </div>
+          <div class="footer__col">
+            <p></p>
+          </div>
+          <div class="footer__col">
+            <div class="footer__socials">
+              
+            </div>
+          </div>
+        </div>
+        <div class="section__container footer__bar">
+          Copyright © 2024 MyPortfolio. All rights reserved.
+        </div>
+      </footer>
+      <button onclick="scrollToTop()" class="toTop" id="back-to-top-btn" title="Go to top">&#9650;</button>
+
+      <script>
+          // JavaScript function to scroll to the top of the page
+          function scrollToTop() {
+              window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth' // Smooth scrolling
+              });
+          }
+      </script>
+      
+</body></html>
