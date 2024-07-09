@@ -16,15 +16,15 @@ app.post('/send-email', (req, res) => {
         service: 'gmail',
         host: 'smtp.gmail.com',
         auth: {
-            user: 'enompilohealth@gmail.com',
-            pass: 'ozni higq anxv tbgb ' // Use your actual password or app-specific password
+            user: 'siyamamkela.sogayise@gmail.com',
+            pass: 'nbaq dlnc zdyx labq  ' // Use your actual password or app-specific password
         }
     });
 
     // Email options
     const mailOptions = {
         from: email,
-        to: 'enompilohealth@gmail.com',
+        to: 'siyamamkela.sogayise@gmail.com',
         subject: `Contact Form Submission from ${name}`,
         text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
     };
