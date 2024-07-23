@@ -122,9 +122,9 @@ ul a .active {
     animation: javascript 5s linear infinite;
 }
 
-.php {
+.java {
     background: #064469;
-    animation: php 5s linear infinite;
+    animation: java 5s linear infinite;
 }
 
 .sql {
@@ -150,7 +150,7 @@ ul a .active {
 .javascript span{
     border: 1px solid #6f7c80
 }
-.php span{
+.java span{
     border: 1px solid #064469
 }
 .sql span{
@@ -182,7 +182,7 @@ ul a .active {
         width:70%;
     }
 }
-@keyframes php{
+@keyframes java{
     100%{
         width:65%;
     }
